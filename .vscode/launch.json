@@ -5,12 +5,12 @@
     "version": "0.2.0",
     "configurations": [
       {
-        "type": "node",
+        "type": "firefox",
         "request": "launch",
-        "name": "Launch Program",
-        "program": "${workspaceFolder}/helloworld.ts",
-        "preLaunchTask": "tsc: build - tsconfig.json",
-        "outFiles": ["${workspaceFolder}/out/**/*.js"]
+        "reAttach": true,
+        "name": "Launch index.html",
+        "file": "${workspaceFolder}/helloweb.html"
       }
+
     ]
   }
